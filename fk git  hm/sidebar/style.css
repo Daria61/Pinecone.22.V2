@@ -1,0 +1,65 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.backgroundside{
+    background-color: #BCC6CC;
+    height: 400px;
+    position: relative;
+}
+.sidebar{
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    width: 400px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    left: -350px;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.sidebar:hover{
+    left: 0;
+
+}
+.list{
+    background-color: #3EB489;
+    text-align: center;
+    margin-top: 20px;
+    height: 70px ;
+    transition-duration: 0.5s;
+    transition-property: all;
+    overflow: hidden;
+}
+.list p{
+    font-size: 24px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    margin: 20px;
+}
+.list:hover p{
+    font-size:30px ;
+    margin: 15px;
+}
+.list:hover{
+    background-color: white;
+}
+i{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 34px;
+    right: 10px;
+    top: 10px;
+}
+/*.color-gran{
+    position: absolute;
+    z-index: 3;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(188, 198, 204, 0.8);
+    top: 0;
+}*/
+.list:hover .color-gran{
+    background-color:  rgba(188, 198, 204, 0.0);
+}

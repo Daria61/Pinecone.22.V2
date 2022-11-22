@@ -1,0 +1,92 @@
+body{
+    background-color:  rgba(137, 176, 223);
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+h1{
+    margin-left: 40px;
+    font-size: 26px;
+}
+input{
+    margin-top:  40px ;
+    border: 0;
+    border-bottom: 1px solid  rgb(224, 224, 224)
+    ;
+}
+form{
+    margin-left: 45px;
+}
+.general{
+    width: 50%;
+}
+.gen--head--color{
+    color:rgb(38, 84, 157);
+}
+.name-space{
+    width: 40%;
+    margin-right: 20px;
+}
+.border-line{
+    width: 88%;
+}
+#position--select{
+    width: 88%;
+    margin-top:  30px ;
+    border: 0;
+    border-bottom: 1px solid  rgb(224, 224, 224);
+}
+
+
+.details{
+    width: 50%;
+    background-color:  rgb(58, 58, 193);
+    border-radius: 0 10px 10px 0 ;
+}
+.details input{
+    background-color: inherit;
+}
+.details select{
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-top:  40px ;
+}
+.details select option{
+    color: black;
+}
+.head--color{
+    color: #fff;
+}
+.details ::placeholder{
+    color: #fff;
+}
+.accept{
+    display: flex;
+}
+.check{
+    margin-top: 20px;
+}
+p{
+    font-size: 14px;
+    padding-top: 15px;
+    margin-left: 10px;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+button{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    border-top: 1px solid #ccc ;
+    border-left: 1px solid #ccc;
+}
