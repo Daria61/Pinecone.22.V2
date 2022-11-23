@@ -1,0 +1,41 @@
+.color{
+    height: 500px;
+    padding: 0;
+    background-color: red;
+}
+.color::after{
+    content: " 1400px ih baina";
+    
+}
+@media  (max-width:1200px){
+    .color::after{
+        content: "1200 ees baga";
+    }
+    .color{
+        background-color: pink;
+    }
+}
+@media  (max-width:1024px){
+    .color::after{
+        content: "1024 ees baga";
+    }
+    .color{
+        background-color: yellow;
+    }
+}
+@media  (max-width:768px){
+    .color::after{
+        content: "768 ees baga";
+    }
+    .color{
+        background-color: orange;
+    }
+}
+@media  (max-width:480px){
+    .color::after{
+        content: "480 ees baga";
+    }
+    .color{
+        background-color: green;
+    }
+}

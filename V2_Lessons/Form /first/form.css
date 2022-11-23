@@ -1,0 +1,27 @@
+body{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+.form{
+    display: flex;
+}
+.input{
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#input{
+    margin: 15px 0;
+    margin-left: 10px;
+}
+p{
+    width: 100px;
+    text-align: right;
+}
+.send{
+    margin-left: 110px;
+}
+..

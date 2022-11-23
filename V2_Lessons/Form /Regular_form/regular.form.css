@@ -1,0 +1,23 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+}
+form{
+    display: flex;
+}
+p{
+    width: 300px;
+    text-align: right;
+    margin-right: 10px;
+}
+input{
+    height: 20px;
+    margin-top: 15px;
+}
+label{
+    margin-top: 15px;
+}
+select{
+    height: 20px;
+    margin-top:15px ;
+}
