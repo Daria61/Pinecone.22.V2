@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+
+}
+.container{
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: auto;
+}
+.container .col{
+    width: 32%;
+    background-color: #ccc;
+    height: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.alert{
+    margin: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px;
+}
+button{
+    background-color: plum;
+    padding: 15px 25px;
+    color: black;
+    border-radius: 10px;
+}   
+.button{
+    text-align: center;
+}
