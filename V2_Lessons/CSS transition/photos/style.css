@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.big{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.container{
+    width: 33%;
+    height: 33%;
+}
+.container img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.over{
+    position: relative;
+    overflow: hidden;
+}
+.black-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 3 ;
+    height:200px;
+    width: 100%;
+}
+.over:hover .bg1{
+    width: 0;
+}
+.bg1{
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.over:hover .bg2{
+    height: 0;
+}
+.bg2{
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.over:hover .bg3{
+    top: -200px;
+    right: -200px;
+}
+.bg3{
+    transition-duration: 0.5s;
+    transition-property: all;
+    top: 0;
+    right: 0;
+}
+.over:hover .bg4{
+    top: -200px;
+    left: -200px;
+}
+.bg4{
+    transition-duration: 0.5s;
+    transition-property: all;
+    top: 0;
+    left: 0;
+}
+
+
